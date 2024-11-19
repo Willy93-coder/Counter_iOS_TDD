@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Counter_iOS_TDDApp: App {
+    
+    private var counterViewModel = CounterViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(counterViewModel)
         }
     }
 }

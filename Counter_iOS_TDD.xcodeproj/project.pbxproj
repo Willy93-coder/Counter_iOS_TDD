@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3FD1BBB92CECD9730038E0F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1BBB82CECD9730038E0F7 /* README.md */; };
+		3FD1BBBB2CECDA550038E0F7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1BBBA2CECDA550038E0F7 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3FD1BA5A2CEC98560038E0F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -14,7 +19,7 @@
 			remoteGlobalIDString = 3FD1BA482CEC98550038E0F7;
 			remoteInfo = Counter_iOS_TDD;
 		};
-		3FD1BA642CEC98560038E0F7 /* PBXContainerItemProxy */ = {
+		3FD1BB3D2CECBAD40038E0F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3FD1BA412CEC98550038E0F7 /* Project object */;
 			proxyType = 1;
@@ -26,7 +31,9 @@
 /* Begin PBXFileReference section */
 		3FD1BA492CEC98550038E0F7 /* Counter_iOS_TDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter_iOS_TDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD1BA592CEC98560038E0F7 /* Counter_iOS_TDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Counter_iOS_TDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FD1BA632CEC98560038E0F7 /* Counter_iOS_TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Counter_iOS_TDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD1BB372CECBAD40038E0F7 /* Counter_iOS_TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Counter_iOS_TDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD1BBB82CECD9730038E0F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FD1BBBA2CECDA550038E0F7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +47,7 @@
 			path = Counter_iOS_TDDTests;
 			sourceTree = "<group>";
 		};
-		3FD1BA662CEC98560038E0F7 /* Counter_iOS_TDDUITests */ = {
+		3FD1BB382CECBAD40038E0F7 /* Counter_iOS_TDDUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Counter_iOS_TDDUITests;
 			sourceTree = "<group>";
@@ -62,7 +69,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FD1BA602CEC98560038E0F7 /* Frameworks */ = {
+		3FD1BB342CECBAD40038E0F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,9 +82,11 @@
 		3FD1BA402CEC98550038E0F7 = {
 			isa = PBXGroup;
 			children = (
+				3FD1BBBA2CECDA550038E0F7 /* .gitignore */,
+				3FD1BBB82CECD9730038E0F7 /* README.md */,
 				3FD1BA4B2CEC98550038E0F7 /* Counter_iOS_TDD */,
 				3FD1BA5C2CEC98560038E0F7 /* Counter_iOS_TDDTests */,
-				3FD1BA662CEC98560038E0F7 /* Counter_iOS_TDDUITests */,
+				3FD1BB382CECBAD40038E0F7 /* Counter_iOS_TDDUITests */,
 				3FD1BA4A2CEC98550038E0F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +96,7 @@
 			children = (
 				3FD1BA492CEC98550038E0F7 /* Counter_iOS_TDD.app */,
 				3FD1BA592CEC98560038E0F7 /* Counter_iOS_TDDTests.xctest */,
-				3FD1BA632CEC98560038E0F7 /* Counter_iOS_TDDUITests.xctest */,
+				3FD1BB372CECBAD40038E0F7 /* Counter_iOS_TDDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,27 +149,27 @@
 			productReference = 3FD1BA592CEC98560038E0F7 /* Counter_iOS_TDDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3FD1BA622CEC98560038E0F7 /* Counter_iOS_TDDUITests */ = {
+		3FD1BB362CECBAD40038E0F7 /* Counter_iOS_TDDUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FD1BA732CEC98560038E0F7 /* Build configuration list for PBXNativeTarget "Counter_iOS_TDDUITests" */;
+			buildConfigurationList = 3FD1BB3F2CECBAD40038E0F7 /* Build configuration list for PBXNativeTarget "Counter_iOS_TDDUITests" */;
 			buildPhases = (
-				3FD1BA5F2CEC98560038E0F7 /* Sources */,
-				3FD1BA602CEC98560038E0F7 /* Frameworks */,
-				3FD1BA612CEC98560038E0F7 /* Resources */,
+				3FD1BB332CECBAD40038E0F7 /* Sources */,
+				3FD1BB342CECBAD40038E0F7 /* Frameworks */,
+				3FD1BB352CECBAD40038E0F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3FD1BA652CEC98560038E0F7 /* PBXTargetDependency */,
+				3FD1BB3E2CECBAD40038E0F7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3FD1BA662CEC98560038E0F7 /* Counter_iOS_TDDUITests */,
+				3FD1BB382CECBAD40038E0F7 /* Counter_iOS_TDDUITests */,
 			);
 			name = Counter_iOS_TDDUITests;
 			packageProductDependencies = (
 			);
 			productName = Counter_iOS_TDDUITests;
-			productReference = 3FD1BA632CEC98560038E0F7 /* Counter_iOS_TDDUITests.xctest */;
+			productReference = 3FD1BB372CECBAD40038E0F7 /* Counter_iOS_TDDUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +189,7 @@
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 3FD1BA482CEC98550038E0F7;
 					};
-					3FD1BA622CEC98560038E0F7 = {
+					3FD1BB362CECBAD40038E0F7 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 3FD1BA482CEC98550038E0F7;
 					};
@@ -202,7 +211,7 @@
 			targets = (
 				3FD1BA482CEC98550038E0F7 /* Counter_iOS_TDD */,
 				3FD1BA582CEC98560038E0F7 /* Counter_iOS_TDDTests */,
-				3FD1BA622CEC98560038E0F7 /* Counter_iOS_TDDUITests */,
+				3FD1BB362CECBAD40038E0F7 /* Counter_iOS_TDDUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD1BBBB2CECDA550038E0F7 /* .gitignore in Resources */,
+				3FD1BBB92CECD9730038E0F7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +233,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FD1BA612CEC98560038E0F7 /* Resources */ = {
+		3FD1BB352CECBAD40038E0F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,7 +257,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FD1BA5F2CEC98560038E0F7 /* Sources */ = {
+		3FD1BB332CECBAD40038E0F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,10 +272,10 @@
 			target = 3FD1BA482CEC98550038E0F7 /* Counter_iOS_TDD */;
 			targetProxy = 3FD1BA5A2CEC98560038E0F7 /* PBXContainerItemProxy */;
 		};
-		3FD1BA652CEC98560038E0F7 /* PBXTargetDependency */ = {
+		3FD1BB3E2CECBAD40038E0F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3FD1BA482CEC98550038E0F7 /* Counter_iOS_TDD */;
-			targetProxy = 3FD1BA642CEC98560038E0F7 /* PBXContainerItemProxy */;
+			targetProxy = 3FD1BB3D2CECBAD40038E0F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -404,6 +415,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +445,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +497,7 @@
 			};
 			name = Release;
 		};
-		3FD1BA742CEC98560038E0F7 /* Debug */ = {
+		3FD1BB402CECBAD40038E0F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -501,7 +514,7 @@
 			};
 			name = Debug;
 		};
-		3FD1BA752CEC98560038E0F7 /* Release */ = {
+		3FD1BB412CECBAD40038E0F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -548,11 +561,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FD1BA732CEC98560038E0F7 /* Build configuration list for PBXNativeTarget "Counter_iOS_TDDUITests" */ = {
+		3FD1BB3F2CECBAD40038E0F7 /* Build configuration list for PBXNativeTarget "Counter_iOS_TDDUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FD1BA742CEC98560038E0F7 /* Debug */,
-				3FD1BA752CEC98560038E0F7 /* Release */,
+				3FD1BB402CECBAD40038E0F7 /* Debug */,
+				3FD1BB412CECBAD40038E0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
